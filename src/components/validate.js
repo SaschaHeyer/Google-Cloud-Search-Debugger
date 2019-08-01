@@ -177,7 +177,7 @@ export default class Create extends Component {
               <React.Fragment>
                 <tr>
                 {keyMatch.inUrl ? (
-        <td><a target="_blank" rel="noopener noreferrer" href={'//'.concat(keyMatch.query)}>{keyMatch.query}</a></td>
+        <td><a target="_blank" rel="noopener noreferrer" href={keyMatch.query}>{keyMatch.query}</a></td>
       ) : (
         <td>{keyMatch.query}</td>
       )}

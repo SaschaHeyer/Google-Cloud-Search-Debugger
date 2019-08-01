@@ -15,6 +15,6 @@
 
 ```bash
 gcloud config set project <project>
-gcloud builds submit --tag gcr.io/<project>/gcs-debug-interface
-gcloud beta run deploy --image gcr.io/<project>/gcs-debug-interface --region europe-west1 --memory=512M
+gcloud builds submit --tag gcr.io/bayer-internet-gcs-staging/gcs-debug-interface
+gcloud beta run deploy --image gcr.io/bayer-internet-gcs-staging/gcs-debug-interface --region europe-west1 --memory=512M
 ```
