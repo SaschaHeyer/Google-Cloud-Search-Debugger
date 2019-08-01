@@ -121,7 +121,7 @@ export default class Create extends Component {
             <input
               type="text"
               className="form-control"
-              placeholder="https://proxy-dot-customer-internet-gcs-prod.appspot.com/query/search"
+              placeholder="https://proxy.appspot.com/query/search"
               name="endpoint"
               value={this.state.endpoint}
               onChange={this.updateInput}
